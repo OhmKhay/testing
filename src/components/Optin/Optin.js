@@ -10,8 +10,22 @@ class Optin extends Component {
   render() {
     return (
       <div className="optin">
-        <p>Want to be the first to know when we launch?</p>
-        <button onClick={() => this.modal()}>Click Me</button>
+        <p
+          style={{
+            marginTop: "4rem",
+          }}
+        >
+          Website is coming soon.
+        </p>
+        <p>
+          We are working on the full version of our new site and will be back
+          shortly.
+        </p>
+        <p>
+          Shan Dictionary ႁဝ်းတိုၵ်ႉႁၢင်ႈႁႅၼ်းဝႆႉယူႇၶႃႈ ပေႃးဝၼ်းထိႉ 24/09/2022
+          ၼႆႉၸိုင် ႁဝ်းၶႃႈ တေပိုတ်ႇ တေၸႂ်ႉတိုဝ်းလႆႈႁႂ်ႈပဵၼ်တင်းၵၢၼ်ၶႃႈ။
+        </p>
+
         <div id="modal">
           <div className="wrapper">
             <h3>Enter Your Email</h3>

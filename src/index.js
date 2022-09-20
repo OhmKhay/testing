@@ -10,11 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>
-          Website
-          <br />
-          Coming Soon
-        </h1>
+        <h1>Shan Dictonary</h1>
         <Timer />
         <Optin />
         <Preloader />

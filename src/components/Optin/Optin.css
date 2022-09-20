@@ -1,7 +1,8 @@
 .optin {
-  margin-top: 8%;
+  margin-top: 0rem;
 }
 .optin p {
+  padding: 1rem 1.2rem;
   font-size: 14px;
   font-weight: 100;
 }
